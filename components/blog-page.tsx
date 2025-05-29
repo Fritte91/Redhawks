@@ -15,7 +15,7 @@ const allBlogPosts = [
     title: "The Ancient Art of Fire-Grilled Perfection",
     excerpt:
       "Discover the time-honored techniques that give our burgers their distinctive smoky flavor and perfect char...",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/redhawks1.jpg",
     date: "2024-01-20",
     author: "Chef Marcus Redhawk",
     category: "Culinary Secrets",
@@ -28,7 +28,7 @@ const allBlogPosts = [
     title: "Sourcing the Sacred: Our Ingredient Journey",
     excerpt:
       "From local farms to ancient spice routes, learn about our commitment to premium, ethically-sourced ingredients...",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/redhawks2.jpg",
     date: "2024-01-15",
     author: "Sarah Chen",
     category: "Sustainability",
@@ -40,7 +40,7 @@ const allBlogPosts = [
     slug: "behind-scenes-warriors-kitchen",
     title: "Behind the Scenes: A Day in the Warrior's Kitchen",
     excerpt: "Take an exclusive look at the precision, passion, and artistry that goes into every dish we serve...",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/shack1.jpg",
     date: "2024-01-10",
     author: "Kitchen Team",
     category: "Behind the Scenes",
@@ -53,7 +53,7 @@ const allBlogPosts = [
     title: "New Seasonal Menu: Autumn Warrior Collection",
     excerpt:
       "Introducing our limited-time autumn menu featuring seasonal ingredients and bold new flavor combinations...",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/gallery1.jpg",
     date: "2024-01-05",
     author: "Chef Marcus Redhawk",
     category: "Menu Updates",
@@ -66,7 +66,7 @@ const allBlogPosts = [
     title: "The Warrior's Spice Blend: A Secret Recipe Revealed",
     excerpt:
       "After years of requests, we're sharing the story behind our signature spice blend that makes every dish legendary...",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/gallery5.jpg",
     date: "2024-01-01",
     author: "Chef Marcus Redhawk",
     category: "Recipes",
@@ -78,7 +78,7 @@ const allBlogPosts = [
     slug: "community-warriors-local-farmers",
     title: "Community Warriors: Supporting Local Farmers",
     excerpt: "Meet the local farmers and suppliers who help us bring the freshest ingredients to your plate...",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/gallery8.jpg",
     date: "2023-12-28",
     author: "Sarah Chen",
     category: "Community",
@@ -174,12 +174,12 @@ export default function BlogPage() {
                     placeholder="Search stories..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="pl-10 bg-zinc-800/50 border-zinc-700 text-white placeholder-gray-400 focus:border-amber-400"
+                    className="pl-10 bg-zinc-800/80 border-zinc-700 text-white placeholder-gray-400 focus:border-amber-400"
                   />
                 </div>
                 <Button
                   variant="outline"
-                  className="border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black sm:w-auto w-full"
+                  className="border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black sm:w-auto w-full bg-zinc-800/80"
                 >
                   <Filter className="w-4 h-4 mr-2" />
                   Filter
@@ -193,10 +193,10 @@ export default function BlogPage() {
                     key={category}
                     variant={selectedCategory === category ? "default" : "outline"}
                     size="sm"
-                    className={`${
+                    className={`$${
                       selectedCategory === category
                         ? "bg-gradient-to-r from-red-600 to-red-700 text-white"
-                        : "border-zinc-600 text-gray-300 hover:border-amber-400 hover:text-amber-400"
+                        : "border-zinc-600 text-gray-300 hover:border-amber-400 hover:text-amber-400 bg-zinc-800/80"
                     } transition-all duration-300 text-xs md:text-sm`}
                     onClick={() => setSelectedCategory(category)}
                   >

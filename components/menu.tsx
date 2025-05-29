@@ -12,35 +12,90 @@ const menuCategories = [
     icon: Award,
     items: [
       {
-        name: "Warrior's Conquest",
-        price: "฿269",
+        name: "Cheesy Delight",
+        price: "฿69",
         description: "Wagyu beef, aged gruyere, truffle aioli, caramelized onions, arugula on brioche",
         ingredients: ["Wagyu Beef", "Aged Gruyere", "Truffle Aioli", "Caramelized Onions", "Arugula", "Brioche Bun"],
         badges: ["Premium", "Signature"],
         rating: 4.9,
-        image: "/images/burger4.jpg",
+        image: "/images/cheesydelight.jpg",
         details:
           "Our flagship burger features premium wagyu beef sourced from select farms, topped with imported aged gruyere cheese that adds a nutty depth. The house-made truffle aioli provides an earthy luxury, while caramelized onions add sweetness. Served on a freshly baked brioche bun with peppery arugula for balance.",
       },
       {
-        name: "Thunder Chief",
-        price: "฿229",
+        name: "Double Cheese Madness",
+        price: "฿99",
         description: "Double smash patties, smoked cheddar, bacon jam, pickled jalapeños, chipotle mayo",
         ingredients: ["Double Beef Patties", "Smoked Cheddar", "Bacon Jam", "Pickled Jalapeños", "Chipotle Mayo"],
         badges: ["Spicy", "Popular"],
         rating: 4.8,
-        image: "/images/burger5.jpg",
+        image: "/images/doublecheesemadness.jpg",
         details:
           "Two perfectly smashed beef patties create a caramelized crust, topped with melted smoked cheddar and our house-made bacon jam. The pickled jalapeños add heat and acidity, while the smoky chipotle mayo brings everything together. A burger that commands respect with every bite.",
       },
       {
-        name: "Sacred Fire",
-        price: "฿199",
+        name: "Western Burger",
+        price: "฿144",
         description: "Plant-based patty, cashew cheese, avocado, heritage tomatoes, hemp seed bun",
         ingredients: ["Plant Patty", "Cashew Cheese", "Avocado", "Heritage Tomatoes", "Hemp Seed Bun"],
         badges: ["Vegan", "Healthy"],
         rating: 4.7,
-        image: "/images/burger6.jpg",
+        image: "/images/westernburger.jpg",
+        details:
+          "Our vegan masterpiece features a house-made plant patty of lentils, mushrooms, and ancient grains. Topped with creamy cashew cheese, fresh avocado, and juicy heritage tomatoes. Served on a protein-rich hemp seed bun that complements the earthy flavors of this guilt-free indulgence.",
+      },
+      {
+        name: "Spicy Jalapeno Burger",
+        price: "฿164",
+        description: "Plant-based patty, cashew cheese, avocado, heritage tomatoes, hemp seed bun",
+        ingredients: ["Plant Patty", "Cashew Cheese", "Avocado", "Heritage Tomatoes", "Hemp Seed Bun"],
+        badges: ["Vegan", "Healthy"],
+        rating: 4.7,
+        image: "/images/jalapenoburger.jpg",
+        details:
+          "Our vegan masterpiece features a house-made plant patty of lentils, mushrooms, and ancient grains. Topped with creamy cashew cheese, fresh avocado, and juicy heritage tomatoes. Served on a protein-rich hemp seed bun that complements the earthy flavors of this guilt-free indulgence.",
+      },
+      {
+        name: "Redhawk's Smash Burger",
+        price: "฿124",
+        description: "Plant-based patty, cashew cheese, avocado, heritage tomatoes, hemp seed bun",
+        ingredients: ["Plant Patty", "Cashew Cheese", "Avocado", "Heritage Tomatoes", "Hemp Seed Bun"],
+        badges: ["Vegan", "Healthy"],
+        rating: 4.7,
+        image: "/images/redhawksburger.jpg",
+        details:
+          "Our vegan masterpiece features a house-made plant patty of lentils, mushrooms, and ancient grains. Topped with creamy cashew cheese, fresh avocado, and juicy heritage tomatoes. Served on a protein-rich hemp seed bun that complements the earthy flavors of this guilt-free indulgence.",
+      },
+      {
+        name: "Damien Tryffel Burger",
+        price: "฿229",
+        description: "Plant-based patty, cashew cheese, avocado, heritage tomatoes, hemp seed bun",
+        ingredients: ["Plant Patty", "Cashew Cheese", "Avocado", "Heritage Tomatoes", "Hemp Seed Bun"],
+        badges: ["Vegan", "Healthy"],
+        rating: 4.7,
+        image: "/images/diamontryffel.jpg",
+        details:
+          "Our vegan masterpiece features a house-made plant patty of lentils, mushrooms, and ancient grains. Topped with creamy cashew cheese, fresh avocado, and juicy heritage tomatoes. Served on a protein-rich hemp seed bun that complements the earthy flavors of this guilt-free indulgence.",
+      },
+      {
+        name: "Redhawk's Salsa Burger",
+        price: "฿210",
+        description: "Plant-based patty, cashew cheese, avocado, heritage tomatoes, hemp seed bun",
+        ingredients: ["Plant Patty", "Cashew Cheese", "Avocado", "Heritage Tomatoes", "Hemp Seed Bun"],
+        badges: ["Vegan", "Healthy"],
+        rating: 4.7,
+        image: "/images/salsaburger.jpg",
+        details:
+          "Our vegan masterpiece features a house-made plant patty of lentils, mushrooms, and ancient grains. Topped with creamy cashew cheese, fresh avocado, and juicy heritage tomatoes. Served on a protein-rich hemp seed bun that complements the earthy flavors of this guilt-free indulgence.",
+      },
+      {
+        name: "Southern Pit",
+        price: "฿219",
+        description: "Plant-based patty, cashew cheese, avocado, heritage tomatoes, hemp seed bun",
+        ingredients: ["Plant Patty", "Cashew Cheese", "Avocado", "Heritage Tomatoes", "Hemp Seed Bun"],
+        badges: ["Vegan", "Healthy"],
+        rating: 4.7,
+        image: "/images/southernpitburger.jpg",
         details:
           "Our vegan masterpiece features a house-made plant patty of lentils, mushrooms, and ancient grains. Topped with creamy cashew cheese, fresh avocado, and juicy heritage tomatoes. Served on a protein-rich hemp seed bun that complements the earthy flavors of this guilt-free indulgence.",
       },
@@ -51,19 +106,19 @@ const menuCategories = [
     icon: Flame,
     items: [
       {
-        name: "Eagle's Pride",
-        price: "฿289",
+        name: "Kebab Delight Roll",
+        price: "฿99",
         description: "Premium lamb, saffron marinade, grilled vegetables, tzatziki, warm naan",
         ingredients: ["Premium Lamb", "Saffron Marinade", "Grilled Vegetables", "Tzatziki", "Naan Bread"],
         badges: ["Premium", "Chef's Choice"],
         rating: 4.9,
-        image: "/images/kebab1.jpg",
+        image: "/images/kebabroll.jpg",
         details:
           "Tender cuts of premium lamb marinated in saffron-infused yogurt for 24 hours. Skewered with seasonal vegetables and grilled over open flames. Served with cooling tzatziki sauce and freshly baked naan bread. A royal feast worthy of its name.",
       },
       {
-        name: "Phoenix Rising",
-        price: "฿249",
+        name: "Kebab Platter",
+        price: "฿159",
         description: "Spiced chicken, pomegranate glaze, roasted peppers, garlic yogurt, basmati rice",
         ingredients: ["Spiced Chicken", "Pomegranate Glaze", "Roasted Peppers", "Garlic Yogurt", "Basmati Rice"],
         badges: ["Spicy", "Popular"],
@@ -73,13 +128,13 @@ const menuCategories = [
           "Succulent chicken thighs marinated in our secret blend of 15 spices, then grilled to perfection. Glazed with sweet-tart pomegranate reduction and served with flame-roasted peppers. Accompanied by cooling garlic yogurt and fragrant basmati rice. A dish that rises above the ordinary.",
       },
       {
-        name: "Desert Storm",
-        price: "฿219",
+        name: "Golden Pita Pocket",
+        price: "฿129",
         description: "Beef kofta, harissa spice, grilled onions, tahini sauce, flatbread",
         ingredients: ["Beef Kofta", "Harissa Spice", "Grilled Onions", "Tahini Sauce", "Flatbread"],
         badges: ["Spicy", "Traditional"],
         rating: 4.6,
-        image: "/images/kebab3.jpg",
+        image: "/images/pitapocket.jpg",
         details:
           "Hand-rolled beef kofta seasoned with traditional Middle Eastern spices and fiery harissa. Grilled to perfection with caramelized onions and served with creamy tahini sauce and warm flatbread. A taste of the ancient spice routes.",
       },
@@ -90,7 +145,7 @@ const menuCategories = [
     icon: Zap,
     items: [
       {
-        name: "Warrior's Fury",
+        name: "Flatbread Roll",
         price: "฿159",
         description: "All-beef frank, spicy mustard, jalapeño relish, crispy onions, brioche bun",
         ingredients: ["All-Beef Frank", "Spicy Mustard", "Jalapeño Relish", "Crispy Onions", "Brioche Bun"],
@@ -101,8 +156,8 @@ const menuCategories = [
           "Premium all-beef frankfurter grilled to perfection and topped with house-made spicy mustard and jalapeño relish. Finished with crispy fried onions for texture and served on a toasted brioche bun. Simple yet extraordinary.",
       },
       {
-        name: "Chief's Classic",
-        price: "฿139",
+        name: "Fried Sausage With Bread",
+        price: "฿129",
         description: "Premium beef frank, caramelized onions, yellow mustard, ketchup, sesame bun",
         ingredients: ["Premium Beef Frank", "Caramelized Onions", "Yellow Mustard", "Ketchup", "Sesame Bun"],
         badges: ["Classic", "Family Favorite"],
@@ -112,7 +167,7 @@ const menuCategories = [
           "A timeless classic featuring our premium beef frankfurter with perfectly caramelized onions, yellow mustard, and ketchup on a soft sesame seed bun. Sometimes the traditional way is the best way.",
       },
       {
-        name: "Smoke Signal",
+        name: "Mashed Potato Platter with Sausage",
         price: "฿179",
         description: "Smoked sausage, BBQ sauce, coleslaw, pickles, pretzel bun",
         ingredients: ["Smoked Sausage", "BBQ Sauce", "Coleslaw", "Pickles", "Pretzel Bun"],
@@ -140,13 +195,13 @@ const menuCategories = [
           "Crispy hand-cut fries seasoned with our signature warrior spice blend and topped with freshly grated parmesan. Served with house-made garlic aioli for dipping. The perfect side for any meal.",
       },
       {
-        name: "Thunder Wings",
+        name: "Chicken Nuggets",
         price: "฿149",
         description: "Buffalo wings, blue cheese dip, celery sticks, hot sauce",
         ingredients: ["Chicken Wings", "Buffalo Sauce", "Blue Cheese Dip", "Celery Sticks"],
         badges: ["Spicy", "Popular"],
         rating: 4.6,
-        image: "/images/kebab1.jpg",
+        image: "/images/snack1.jpg",
         details:
           "Crispy chicken wings tossed in our fiery buffalo sauce and served with cooling blue cheese dip and fresh celery sticks. Perfect for sharing or as a spicy appetizer.",
       },
@@ -200,7 +255,7 @@ export default function Menu() {
   }, [])
 
   return (
-    <section ref={ref} className="py-24 bg-gradient-to-b from-zinc-900 to-black relative overflow-hidden">
+    <section id="menu" ref={ref} className="py-24 bg-gradient-to-b from-zinc-900 to-black relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div

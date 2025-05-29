@@ -35,7 +35,7 @@ const cateringServices = [
     icon: Package,
     title: "Party Packages",
     description: "Pre-ordered packages for gatherings of all sizes, ready for pickup or delivery",
-    image: "/images/shack2.jpg",
+    image: "/images/shack4.jpeg",
     details: "Choose from our selection of party packages designed to feed groups from 10 to 100 people.",
   },
 ]
@@ -135,7 +135,7 @@ export default function Catering() {
                   key={index}
                   className={`cursor-pointer transition-all duration-500 transform hover:scale-105 ${
                     index === activeIndex
-                      ? "bg-gradient-to-r from-amber-400/10 to-red-600/10 border-amber-400/50 shadow-lg shadow-amber-400/20"
+                      ? "bg-gradient-to-r from-amber-900/60 to-red-900/60 border-amber-400/70 shadow-lg shadow-amber-400/20"
                       : "bg-gradient-to-b from-zinc-800 to-zinc-900 border-amber-400/20 hover:border-amber-400/40"
                   }`}
                   onClick={() => setActiveIndex(index)}

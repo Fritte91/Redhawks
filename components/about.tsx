@@ -53,7 +53,7 @@ export default function About() {
   }, [])
 
   return (
-    <section ref={ref} className="py-24 bg-black relative overflow-hidden">
+    <section id="about" ref={ref} className="py-24 bg-black relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-amber-400/5 via-transparent to-red-600/5" />

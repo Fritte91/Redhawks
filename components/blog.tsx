@@ -79,7 +79,7 @@ export default function Blog() {
   const regularPosts = blogPosts.filter((post) => !post.featured)
 
   return (
-    <section ref={ref} className="py-24 bg-gradient-to-b from-zinc-900 to-black relative overflow-hidden">
+    <section id="blog" ref={ref} className="py-24 bg-gradient-to-b from-zinc-900 to-black relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div

@@ -83,21 +83,25 @@ export default function Hero() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6">
-                <Button
-                  size="lg"
-                  className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 text-lg font-semibold shadow-2xl transform hover:scale-105 transition-all duration-300"
-                >
-                  Explore Menu
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black px-8 py-4 text-lg font-semibold backdrop-blur-sm bg-black/20 transform hover:scale-105 transition-all duration-300"
-                >
-                  <Play className="mr-2 w-5 h-5" />
-                  Watch Story
-                </Button>
+                <a href="#menu">
+                  <Button
+                    size="lg"
+                    className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 text-lg font-semibold shadow-2xl transform hover:scale-105 transition-all duration-300"
+                  >
+                    Explore Menu
+                    <ArrowRight className="ml-2 w-5 h-5" />
+                  </Button>
+                </a>
+                <a href="/blog">
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black px-8 py-4 text-lg font-semibold backdrop-blur-sm bg-black/20 transform hover:scale-105 transition-all duration-300"
+                  >
+                    <Play className="mr-2 w-5 h-5" />
+                    Watch Story
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

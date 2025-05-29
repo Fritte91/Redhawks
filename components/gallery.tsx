@@ -7,16 +7,16 @@ import { Badge } from "@/components/ui/badge"
 import { X, ZoomIn } from "lucide-react"
 
 const galleryImages = [
-  { src: "/images/burger1.jpg", alt: "Warrior's Feast Burger", category: "food", featured: true },
-  { src: "/images/burger2.jpg", alt: "Eagle's Pride Kebab", category: "food", featured: true },
-  { src: "/images/burger3.jpg", alt: "Restaurant Interior", category: "restaurant", featured: false },
-  { src: "/images/burger7.jpg", alt: "Open Kitchen", category: "restaurant", featured: true },
-  { src: "/images/burger8.jpg", alt: "Grilled Perfection", category: "food", featured: false },
-  { src: "/images/burger9.jpg", alt: "Chef at Work", category: "restaurant", featured: false },
+  { src: "/images/gallery1.jpg", alt: "Warrior's Feast Burger", category: "food", featured: true },
+  { src: "/images/gallery2.jpg", alt: "Eagle's Pride Kebab", category: "food", featured: true },
+  { src: "/images/gallery3.jpg", alt: "Restaurant Interior", category: "restaurant", featured: false },
+  { src: "/images/gallery7.jpg", alt: "Open Kitchen", category: "restaurant", featured: true },
+  { src: "/images/gallery8.jpg", alt: "Grilled Perfection", category: "food", featured: false },
+  { src: "/images/gallery9.jpg", alt: "Chef at Work", category: "restaurant", featured: false },
   { src: "/images/redhawks1.jpg", alt: "Signature Cocktails", category: "drinks", featured: true },
   { src: "/images/redhawks2.jpg", alt: "Private Dining", category: "restaurant", featured: false },
   { src: "/images/shack1.jpg", alt: "Fresh Ingredients", category: "food", featured: false },
-  { src: "/images/shack2.jpg", alt: "Warrior's Lounge", category: "restaurant", featured: true },
+  { src: "/images/gallery10.jpg", alt: "Warrior's Lounge", category: "restaurant", featured: true },
   { src: "/images/shack3.jpg", alt: "Dessert Selection", category: "food", featured: false },
   { src: "/images/warrior1.jpg", alt: "Outdoor Terrace", category: "restaurant", featured: false },
 ]
@@ -54,7 +54,7 @@ export default function Gallery() {
   }, [])
 
   return (
-    <section ref={ref} className="py-24 bg-gradient-to-b from-black to-zinc-900 relative overflow-hidden">
+    <section id="gallery" ref={ref} className="py-24 bg-gradient-to-b from-black to-zinc-900 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div
