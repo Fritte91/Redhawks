@@ -94,12 +94,18 @@ export default function Contact() {
                     <div>
                       <h4 className="text-white font-semibold mb-2 text-sm md:text-base">Location</h4>
                       <p className="text-gray-200 text-sm md:text-base">
-                        123 Warrior's Way
-                        <br />
-                        Downtown District
-                        <br />
-                        Metropolitan City, MC 12345
+                        Soi 102 Nong Kae<br />
+                        Hua Hin District<br />
+                        Prachuap Khiri Khan 77110
                       </p>
+                      <a
+                        href="https://www.google.com/maps/place/RedHawks+Burger+%26+Kebab/@12.5454302,99.9547621,17z/data=!3m1!4b1!4m6!3m5!1s0x30fdab1f656658fd:0x895aeec57703c742!8m2!3d12.545425!4d99.957337!16s%2Fg%2F11vd70rzz8?entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block mt-2 px-3 py-1 bg-amber-400 text-black rounded-full text-xs font-semibold hover:bg-amber-500 transition-all duration-300"
+                      >
+                        View on Google Maps
+                      </a>
                     </div>
                   </div>
                 </CardContent>
@@ -114,9 +120,7 @@ export default function Contact() {
                     <div>
                       <h4 className="text-white font-semibold mb-2 text-sm md:text-base">Hours</h4>
                       <div className="text-gray-200 space-y-1 text-sm md:text-base">
-                        <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
-                        <p>Friday - Saturday: 11:00 AM - 12:00 AM</p>
-                        <p>Sunday: 12:00 PM - 9:00 PM</p>
+                        <p>Every day: 13:00 - 23:00</p>
                       </div>
                     </div>
                   </div>
@@ -130,7 +134,7 @@ export default function Contact() {
                       <Phone className="w-4 md:w-5 h-4 md:h-5 text-amber-400 flex-shrink-0" />
                       <div>
                         <p className="text-white font-semibold text-sm md:text-base">Phone</p>
-                        <p className="text-gray-200 text-sm md:text-base">(555) 123-HAWK</p>
+                        <p className="text-gray-200 text-sm md:text-base">0650124051</p>
                       </div>
                     </div>
                   </CardContent>

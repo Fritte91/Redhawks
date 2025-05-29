@@ -26,9 +26,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 rounded-full flex items-center justify-center shadow-lg group-hover:shadow-amber-400/25 transition-all duration-300">
-              <span className="text-black font-bold text-xl">R</span>
-            </div>
+            <img
+              src="/images/shack22.png"
+              alt="Redhawk's Logo"
+              className="w-12 h-12 rounded-full object-cover shadow-lg group-hover:shadow-amber-400/25 transition-all duration-300"
+            />
             <div>
               <span className="text-amber-400 font-bold text-xl tracking-wider">REDHAWK'S</span>
               <div className="text-gray-300 text-xs tracking-widest">BURGER & KEBAB</div>
